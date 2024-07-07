@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCS - Enrollment</title>
+    <!--CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--STYLE-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⨇</button>
+    <!-- Hero Section -->
+
+    <section class="hero">
+        <div class="hero__content">
+            <img src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1718885461/logo_byvtia.png"
+                alt="Profile Image">
+            <p><b>Next Code Stars</b></p>
+            <section class="responsive-paragraph">
+                <p>
+                    <b>Coding for new-creators</b> is an innovative learning platform dedicated to empowering the next
+                    generation of coders.<br>
+                    With a focus on hands-on, project-based learning, NCS offers a comprehensive curriculum that covers
+                    the fundamentals of programming and web development.<br>
+                    Our mission is to inspire and equip learners with the skills needed to excel in the dynamic field of
+                    technology, fostering creativity, problem-solving, and a passion for coding.
+                </p>
+            </section>
+            <button class="btn btn-primary">sign up</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+
+    <section class="features-section">
+        <h2>Why Choose Our Course?</h2>
+        <div class="f-container">
+            <div class="f-card">
+                <div class="icon">
+                    <ion-icon name="hammer-outline"></ion-icon>
+                </div>
+                <div class="content">
+                    <h2>Hands-on Projects</h2>
+                    <p>Gain practical experience with real-world projects.</p>
+                </div>
+            </div>
+            <div class="f-card">
+                <div class="icon">
+                    <ion-icon name="school-outline"></ion-icon>
+                </div>
+                <div class="content">
+                    <h2>Expert Instructors</h2>
+                    <p>Learn from industry professionals with years of experience.</p>
+                </div>
+            </div>
+            <div class="f-card">
+                <div class="icon">
+                    <ion-icon name="time-outline"></ion-icon>
+                </div>
+                <div class="content">
+                    <h2>Flexible Schedule</h2>
+                    <p>Access course materials anytime, anywhere.</p>
+                </div>
+            </div>
+            <div class="f-card">
+                <div class="icon">
+                    <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+                <div class="content">
+                    <h2>Certificate of Completion</h2>
+                    <p>Receive a certificate upon successful completion of the course.</p>
+                </div>
+            </div>
+            <div class="f-card">
+                <div class="icon">
+                    <ion-icon name="people-outline"></ion-icon>
+                </div>
+                <div class="content">
+                    <h2>Community Support</h2>
+                    <p>Join a community of learners and get support from peers.</p>
+                </div>
+            </div>
+            <div class="f-card">
+                <div class="icon">
+                    <ion-icon name="stats-chart-outline"></ion-icon>
+                </div>
+                <div class="content">
+                    <h2>Career Growth</h2>
+                    <p>Boost your career with new skills and knowledge.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Curriculum Section -->
+
+    <section class="curriculum-section">
+        <h2>What You'll Learn</h2>
+        <div class="course html-css">
+            <div class="course-info">
+                <h6>Course</h6>
+                <h2>HTML & CSS Basics</h2>
+                <a href="#">View all chapters <i class="fa fa-chevron-right"></i></a>
+            </div>
+            <div class="course-progress">
+                <div class="progress-container">
+                    <div class="progress"></div>
+                    <div class="progress-text">01/16 Challenges</div>
+                </div>
+                <h6>Chapter 0</h6>
+                <h2>Introduction to HTML</h2>
+                <button class="btn">Continue</button>
+            </div>
+        </div>
+        <div class="course javascript">
+            <div class="course-info">
+                <h6>Course</h6>
+                <h2>JavaScript Fundamentals</h2>
+                <a href="#">View all chapters <i class="fa fa-chevron-right"></i></a>
+            </div>
+            <div class="course-progress">
+                <div class="progress-container">
+                    <div class="progress"></div>
+                    <div class="progress-text">01/16 Challenges</div>
+                </div>
+                <h6>Chapter 0</h6>
+                <h2>Types Of Arrays & Strings</h2>
+                <button class="btn">Continue</button>
+            </div>
+        </div>
+        <div class="course responsive-design">
+            <div class="course-info">
+                <h6>Course</h6>
+                <h2>Responsive Design</h2>
+                <a href="#">View all chapters <i class="fa fa-chevron-right"></i></a>
+            </div>
+            <div class="course-progress">
+                <div class="progress-container">
+                    <div class="progress"></div>
+                    <div class="progress-text">01/16 Challenges</div>
+                </div>
+                <h6>Chapter 0</h6>
+                <h2>Media Queries and Flexbox</h2>
+                <button class="btn">Continue</button>
+            </div>
+        </div>
+        <div class="course nodejs">
+            <div class="course-info">
+                <h6>Course</h6>
+                <h2>Backend Development with Node.js</h2>
+                <a href="#">View all chapters <i class="fa fa-chevron-right"></i></a>
+            </div>
+            <div class="course-progress">
+                <div class="progress-container">
+                    <div class="progress"></div>
+                    <div class="progress-text">01/16 Challenges</div>
+                </div>
+                <h6>Chapter 0</h6>
+                <h2>Setting up Node.js</h2>
+                <button class="btn">Continue</button>
+            </div>
+        </div>
+        <div class="course deploying">
+            <div class="course-info">
+                <h6>Course</h6>
+                <h2>Deploying Your Website</h2>
+                <a href="#">View all chapters <i class="fa fa-chevron-right"></i></a>
+            </div>
+            <div class="course-progress">
+                <div class="progress-container">
+                    <div class="progress"></div>
+                    <div class="progress-text">01/16 Challenges</div>
+                </div>
+                <h6>Chapter 0</h6>
+                <h2>Publishing with GitHub Pages</h2>
+                <button class="btn">Continue</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enrollment Benefit Section -->
+
+    <div class="enrollment">
+        <ul class="enr-cards">
+            <li>
+                <a href="#" class="en-card">
+                    <img src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1717084059/download_nczlvy.png"
+                        class="en-card__image" alt="Harry Image" />
+                    <div class="en-card__overlay">
+                        <div class="b-card__header">
+                            <svg class="en-card__arc" xmlns="http://www.w3.org/2000/svg">
+                                <path />
+                            </svg>
+                            <img class="en-card__thumb"
+                                src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1704528733/4140052_aqt54k.png"
+                                alt="Harry" />
+                            <div class="en-card__header-text">
+                                <h3 class="en-card__title">Harry</h3>
+                                <span class="en-card__status">1 hour ago</span>
+                            </div>
+                        </div>
+                        <p class="en-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores, blanditiis?</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="en-card">
+                    <img src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1717084051/download_6_rz9rfj.png"
+                        class="en-card__image" alt="Aman Image" />
+                    <div class="en-card__overlay">
+                        <div class="b-card__header">
+                            <svg class="en-card__arc" xmlns="http://www.w3.org/2000/svg">
+                                <path />
+                            </svg>
+                            <img class="en-card__thumb"
+                                src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1704528514/4140048_jlv2th.png"
+                                alt="Aman" />
+                            <div class="en-card__header-text">
+                                <h3 class="en-card__title">Aman</h3>
+                                <span class="en-card__status">3 hours ago</span>
+                            </div>
+                        </div>
+                        <p class="en-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores, blanditiis?</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="en-card">
+                    <img src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1717084478/download_9_cqclur.png"
+                        class="en-card__image" alt="sai Image" />
+                    <div class="en-card__overlay">
+                        <div class="b-card__header">
+                            <svg class="en-card__arc" xmlns="http://www.w3.org/2000/svg">
+                                <path />
+                            </svg>
+                            <img class="en-card__thumb"
+                                src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1704528523/4140047_u3zevv.png"
+                                alt="sai" />
+                            <div class="en-card__header-text">
+                                <h3 class="en-card__title">Sai</h3>
+                                <span class="en-card__tagline">Lorem ipsum dolor sit amet consectetur</span>
+                                <span class="en-card__status">1 hour ago</span>
+                            </div>
+                        </div>
+                        <p class="en-card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores, blanditiis?</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Testimonials Section -->
+
+    <div class="outerdiv">
+        <div class="innerdiv">
+            <!-- div1 -->
+            <div class="div1 eachdiv">
+                <div class="userdetails">
+                    <div class="imgbox">
+                        <img src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1704528514/4140048_jlv2th.png"
+                            alt="">
+                    </div>
+                    <div class="detbox">
+                        <p class="name">JON DOV</p>
+                        <p class="designation">Verified Graduate</p>
+                    </div>
+                </div>
+                <div class="review">
+                    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure et minima porro, quisquam
+                        sapiente impedit blanditiis debitis nam! Hic, nesciunt. Corporis sed dolor quis totam incidunt
+                        excepturi odio, aliquid accusantium.</h4>
+                    <p>“ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa consequuntur illo, amet optio
+                        quaerat molestias modi doloribus ex, repellendus nulla ad beatae magnam dolorum distinctio
+                        veritatis eligendi, corrupti earum sed. ”</p>
+                </div>
+            </div>
+            <!-- div2 -->
+            <div class="div2 eachdiv">
+                <div class="userdetails">
+                    <div class="imgbox">
+                        <img src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1704528733/4140052_aqt54k.png"
+                            alt="">
+                    </div>
+                    <div class="detbox">
+                        <p class="name">Dev Lord</p>
+                        <p class="designation">Verified Graduate</p>
+                    </div>
+                </div>
+                <div class="review">
+                    <h4>Lorem ipsum dolor sit amet./h4>
+                        <p>“ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam harum, impedit similique ea
+                            est voluptatum illo, doloremque quasi cumque, molestiae nemo eaque ut? Molestias consectetur
+                            ex natus saepe est atque? ”</p>
+                </div>
+            </div>
+            <!-- div3 -->
+            <div class="div3 eachdiv">
+                <div class="userdetails">
+                    <div class="imgbox">
+                        <img src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1704528713/4140061_kpyt1a.png"
+                            alt="">
+                    </div>
+                    <div class="detbox">
+                        <p class="name dark">LOREM</p>
+                        <p class="designation dark">Verified Graduate</p>
+                    </div>
+                </div>
+                <div class="review dark">
+                    <h4>Lorem ipsum dolor sit, amet consectetur adipisicing.!</h4>
+                    <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Non tempore excepturi
+                        eligendi expedita sapiente magni adipisci reprehenderit esse! Corporis cumque aspernatur at
+                        aliquid amet quod perspiciatis et cupiditate?Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Nihil, quas! Unde eius aliquam aspernatur maiores beatae necessitatibus laudantium at
+                        optio iure, deleniti id suscipit alias sed provident? Eligendi, animi illum. Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit. Quo praesentium, debitis nemo est aliquam aut tenetur
+                        consectetur recusandae optio qui ipsum libero ut distinctio quas voluptates earum repudiandae
+                        dolore voluptatum. ”</p>
+                </div>
+            </div>
+            <!-- div4 -->
+            <div class="div4 eachdiv">
+                <div class="userdetails">
+                    <div class="imgbox">
+                        <img src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1704528547/4140077_eniul2.png"
+                            alt="">
+                    </div>
+                    <div class="detbox">
+                        <p class="name dark">Dev Lord</p>
+                        <p class="designation dark">Verified Graduate</p>
+                    </div>
+                </div>
+                <div class="review dark">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h4>
+                    <p>“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, animi culpa. Dolore voluptas
+                        labore architecto? ”</p>
+                </div>
+            </div>
+            <!-- div5 -->
+            <div class="div5 eachdiv">
+                <div class="userdetails">
+                    <div class="imgbox">
+                        <img src="https://res.cloudinary.com/dtrmjjphv/image/upload/v1704528523/4140047_u3zevv.png"
+                            alt="">
+                    </div>
+                    <div class="detbox">
+                        <p class="name">Dev Lord</p>
+                        <p class="designation">Verified Graduate</p>
+                    </div>
+                </div>
+                <div class="review">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ut quibusdam pariatur.</h4>
+                    <p>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, suscipit totam!
+                        Recusandae a ea omnis deserunt aliquid laboriosam ad illum, voluptatum incidunt suscipit tenetur
+                        voluptatem iusto quo ipsum dolorem iste. Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Laboriosam necessitatibus deleniti ad quis autem nemo, quia harum aliquid eveniet nihil
+                        voluptatem saepe iure earum. Quis, sit ducimus! Enim, animi odio? ”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Pricing Section -->
+
+    <section class="plans__container">
+        <div class="plans">
+            <div class="plansHero">
+                <h1 class="plansHero__title">Simple, transparent pricing</h1>
+                <p class="plansHero__subtitle">No contracts. No suprise fees.</p>
+            </div>
+            <div class="planItem__container">
+                <!--free plan starts -->
+                <div class="planItem planItem--free">
+
+                    <div class="card">
+                        <div class="card__header">
+                            <div class="card__icon symbol symbol--rounded"></div>
+                            <h2>Free</h2>
+                        </div>
+                        <div class="card__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</div>
+                    </div>
+
+                    <div class="price">$0<span>/ month</span></div>
+
+                    <ul class="featureList">
+                        <li>2 links</li>
+                        <li>Own analytics platform</li>
+                        <li class="disabled">Chat support</li>
+                        <li class="disabled">Mobile application</li>
+                        <li class="disabled">Unlimited users</li>
+                    </ul>
+
+                    <button class="button">Get Started</button>
+                </div>
+                <!--free plan ends -->
+
+                <!--pro plan starts -->
+                <div class="planItem planItem--pro">
+                    <div class="card">
+                        <div class="card__header">
+                            <div class="card__icon symbol"></div>
+                            <h2>Pro</h2>
+                            <div class="card__label label">Best Value</div>
+                        </div>
+                        <div class="card__desc">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</div>
+                    </div>
+
+                    <div class="price">$18<span>/ month</span></div>
+
+                    <ul class="featureList">
+                        <li>2 links</li>
+                        <li>Own analytics platform</li>
+                        <li>Chat support</li>
+                        <li class="disabled">Mobile application</li>
+                        <li class="disabled">Unlimited users</li>
+                    </ul>
+
+                    <button class="button button--pink">Get Started</button>
+                </div>
+                <!--pro plan ends -->
+
+                <!--entp plan starts -->
+                <div class="planItem planItem--entp">
+                    <div class="card">
+                        <div class="card__header">
+                            <div class="card__icon"> <img
+                                    src="https://img.icons8.com/?size=48&id=ylUFV0Nc3biM&format=png" alt=""></div>
+                            <h2>Premium</h2>
+                        </div>
+                        <div class="card__desc">Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</div>
+                    </div>
+
+                    <div class="price">Let's Talk</div>
+
+                    <ul class="featureList">
+                        <li>2 links</li>
+                        <li>Own analytics platform</li>
+                        <li>Chat support</li>
+                        <li>Mobile application</li>
+                        <li>Unlimited users</li>
+                        <li>Customize Panel</li>
+                    </ul>
+
+                    <button class="button button--white">Get Started</button>
+                </div>
+                <!--entp plan ends -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+
+    <div id="faq" class="faq-body">
+        <div class="faq-header">
+            <h3 class="faq-title">FAQ's</h3>
+            <div class="seperator"></div>
+        </div>
+        <div class="faq-list">
+            <div>
+                <details open>
+                    <summary title="How can I pay for my appointment?">How can I pay for my appointment?</summary>
+                    <p class="faq-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo quod
+                        debitis ducimus iste soluta rerum ipsa consequuntur minus quae. Ea minus ex corporis, pariatur
+                        quia rerum sequi iusto odit enim expedita fugiat, assumenda molestiae earum iste blanditiis,
+                        ipsum ratione.</p>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary title="What can I expect at my first consultation?">What can I expect at my first
+                        consultation?</summary>
+                    <p class="faq-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, molestias
+                        similique! Molestiae sapiente omnis, illo facere odit reprehenderit eveniet consequuntur sit
+                        minus adipisci temporibus eius inventore quidem. Dignissimos, facere quae. Rem quas a laborum
+                        est officia pariatur voluptatum iusto perferendis aut labore fugit magni inventore nulla
+                        architecto, velit, facilis itaque.</p>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary title="What are your opening hours?">What are your opening hours?</summary>
+                    <p class="faq-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos error ea
+                        accusantium? Sunt cum in, repudiandae et facere at nesciunt commodi non quia earum libero
+                        aliquid labore obcaecati repellendus consequatur! Nesciunt impedit ducimus illum unde optio
+                        veritatis atque facere, voluptate a odio asperiores laudantium rerum.</p>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary title="Do I need a referral?">Do I need a referral?</summary>
+                    <p class="faq-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quisquam
+                        numquam labore explicabo cupiditate laboriosam. Ipsam explicabo possimus illum aspernatur.</p>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary title="Is the cost of the appointment covered by private health insurance?">Is the cost of
+                        the appointment covered by private health insurance?</summary>
+                    <p class="faq-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quos quam
+                        asperiores enim sequi nihil? Iure blanditiis autem in ratione rerum, sequi cupiditate eos nemo
+                        iusto unde eaque voluptatum alias, porro aliquid sunt. Nesciunt veritatis, ex esse tempora
+                        laudantium officiis? Quas corrupti a aut sed quaerat, ipsa incidunt tempora velit dolor
+                        distinctio repellat tenetur illum consectetur quos veniam eius provident earum doloremque
+                        commodi! Minus amet, obcaecati rem, modi accusantium ad, deleniti possimus incidunt laudantium
+                        vitae iusto laborum culpa! Similique, repellat.</p>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary title="What are the parking and public transport options?">What are the parking and public
+                        transport options?</summary>
+                    <p class="faq-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quisquam
+                        numquam labore explicabo cupiditate laboriosam. Ipsam explicabo possimus illum aspernatur.</p>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Join Our Community</h2>
+            <p>Sign up today and get exclusive access to our latest news and updates.</p>
+            <a href="#" class="cta-button">Sign Up Now</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer-section">
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!--js-->
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
